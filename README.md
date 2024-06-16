@@ -3,27 +3,32 @@
 Install the project on your local machine by cloning the repo or downloading the zip.
 
 ```bash
-
+git clone https://github.com/Anshtripathi079/Ridiv_Assignment.git
 ```
 
 Install the project on your local machine with npm.
 
+Run server side code
+
 ```bash
-cd weatherapp
+cd server
 npm install
+node server.js
 ```
 
-After installing all the packages and dependencies run the following command.
+Run client side code
 
 ```bash
- npm run dev
+cd client
+npm install
+npm run dev
 ```
 
 Above command will run the app on your local machine.
 
 ## Tech Stack
 
-**Client:** React.Js , TailwindCSS , React-Router , Typescript , Css , Vite
+**Client:** React.Js , TailwindCSS , React-Router , Typescript , Css , Vite , Json-server, Ant-design
 
 ## Features
 
@@ -34,6 +39,8 @@ Above command will run the app on your local machine.
 -> Dark and light themes.
 -> Displays weather information and 5-day forecast.
 -> Multiple cities weather information at same time.
+-> Switch between celsius and fahrenheit.
+-> Add, View and Remove Favorite cities.
 ```
 
 ## Authors
